@@ -1,0 +1,36 @@
+html {
+	background-color: #DFE4E6;
+}
+
+header {
+	background-color: #EE493F;
+	border-bottom: 2px solid black;
+	border-radius: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+
+nav {
+	font-size: 1rem;
+}
+
+.projects-box {
+	font-family: 'Palanquin', sans-serif;
+	background-color: #A1B8B2;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.inside-projects-box {
+	background-color: #C0E1DB;
+	border-radius: 10px;
+	font-family: 'Palanquin', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+footer {
+	border-top: 2px solid black;
+}
