@@ -1,5 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	background-color: #DFE4E6;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
 
 header {
@@ -11,8 +22,33 @@ header {
 	text-align: center;
 }
 
-nav {
+/*header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+.clear-fix: :after {
+	clear: both;
+	content: '';
+	display: block;
+}*/
+
+nav a {
 	font-size: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+figure img {
+	width: 50%;
+	margin: 5% 20% 5% 20%;
+}
+
+#skills-list li {
+	display: inline-block;
 }
 
 .projects-box {
@@ -20,6 +56,10 @@ nav {
 	background-color: #A1B8B2;
 	border-radius: 10px;
 	margin: 0 auto;
+}
+
+#projects {
+	padding-left: 1rem;
 }
 
 .inside-projects-box {
