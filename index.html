@@ -9,9 +9,14 @@
 <body>
 		<header class="clear-fix"> 
 			<h1>Benjamin Crispin</h1>
+			<button class="nav__button">Navigation</button>
 			<nav>
-				<a href="#about-me" class="styled-links">About Me</a>
-				<a href="#projects" class="styled-links">Projects</a>
+				<ul class="nav__menu hide">
+					<li><a href="#" class="styled-links">Home</a></li>
+					<li><a href="#about" class="styled-links">About</a></li>
+					<li><a href="projects.html" class="styled-links">Projects</a></li>
+					<li><a href="#contact" class="styled-links">Contact</a></li>
+				</ul>
 			</nav>
 		</header>
 		<div class="container">
@@ -23,31 +28,23 @@
 					<p>My goal is to let you know more about me and what projects I've been working on.  If you have any questions regarding what's here, please feel free to contact me through email or any of the social media connections.  Thank you for visiting!</p>
 				</section>
 				<section class="container-1-sections">
-					<h2 id="about-me">
-						About Me
+					<h2 id="about">
+						About
 					</h2>
-					<h3>Bio:</h3>
-					<p>I am a slightly nerdy yet friendly guy who lives in Columbus, OH.  I enjoy video games, reading, hoping the Crew will once again hoist the MLS trophy, and imagining the Browns will one day be good.</p>
-					<p>I have always been interested in technology, and have worked many years in IT Support.  However, I have made the decision to attend <a href="https://wecancodeit.org/">We Can Code IT</a> in here in Columbus to focus my interest in coding and fulfill my desire to be a developer.</p>
-					<p>I am also interested in how software can help fill the needs of people in the community.  I've been able to attend Code for Columbus to work with others who want to use the smart data of Columbus to help make a difference.</p>
+					<button class="toggle-button">
+						<h3>Bio:</h3>
+					</button>
+					<div class="modal">
+						<div class="modal-content">
+							<span class="close-button">&times;</span>
+							<p>I am a slightly nerdy yet friendly guy who lives in Columbus, OH.  I enjoy video games, reading, hoping the Crew will once again hoist the MLS trophy, and imagining the Browns will one day be good.</p></br>
+							<p>I have always been interested in technology, and have worked many years in IT Support.  However, I have made the decision to attend <a href="https://wecancodeit.org/">We Can Code IT</a> in here in Columbus to focus my interest in coding and fulfill my desire to be a developer.</p></br>
+							<p>I am also interested in how software can help fill the needs of people in the community.  I've been able to attend Code for Columbus to work with others who want to use the smart data of Columbus to help make a difference.</p>
+						</div>
+					</div>
 				</section>
 				<section>
-				<article class="projects-box">
-					<h2 id="projects">Projects</h2>
-					<article class="inside-projects-box">
-						<h3><a href="https://github.com/tulasipinjala/virtual-pet">Virtual Pet</a></h3>
-						<p>This project's objective was for our team to make a game to play with virtual pets.</p>
-					</article>
-					<article class="inside-projects-box">
-						<h3><a href="https://github.com/bwcrispin/high-st-hospital">High St. Hospital</a></h3>
-						<p>I had to take a hospital with outdated methods of record keeping and move them to a program based format.  No real vampires (or patients) were harmed in the making of this project.</p>
-					</article>
-					<article class="inside-projects-box">
-						<h3><a href="#">Next Project</a></h3>
-						<p>This project is yet to come.</p>
-					</article>
-				</article>
-			</section>
+				</section>
 			</div>		
 			<div id="container-2">
 				<section class="container-2-sections">
@@ -98,6 +95,6 @@
 				<script type="text/javascript"> document.write(new Date().getFullYear());</script>, Benjamin Crispin
 			</p>
 		</footer>
-		
+	<script src="index.js"></script>
 </body>
 </html>

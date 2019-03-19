@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<title>Projects</title>
+</head>
+<body>
+		<header class="clear-fix"> 
+			<h1>Projects</h1>
+			<button class="nav__button">Navigation</button>
+			<nav>
+				<ul class="nav__menu hide">
+					<li><a href="index.html" class="styled-links">Home</a></li>
+					<li><a href="#about" class="styled-links">About</a></li>
+					<li><a href="#projects" class="styled-links">Projects</a></li>
+					<li><a href="#contact" class="styled-links">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container">
+			<div id="container-1">
+				<section class="conatiner-1-sections">
+					<h1>
+						About the Site
+					</h1>
+					<p>My goal is to let you know more about me and what projects I've been working on.  If you have any questions regarding what's here, please feel free to contact me through email or any of the social media connections.  Thank you for visiting!</p>
+				</section>
+                <div class="carousel-container">
+                    <div class="carousel-pics">
+                        <img src="photos/virtual-pet.png">
+                        <article class="pic-text">Virtual Pet</article>
+                    </div>
+                    <div class="carousel-pics">
+                        <img src="photos/high-st-hospital.png">
+                        <article class="pic-text">High St Hospital</article>
+                    </div>
+                    <div class="carousel-pics">
+                        <img src="photos/park-review.png">
+                        <article class="pic-text">Park Review</article>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+			</div>		
+			<div id="container-2">
+				<section class="container-2-sections">
+					<h3 class="center-text">Contact:</h3>
+					<address>
+						<span>Email:<a href="mailto:benjamin.crispin@gmail.com">benjamin.crispin@gmail.com</a></span><br/>
+					</address>
+					<h3 class="center-text">Connect:</h3>
+					<span><a href="https://www.linkedin.com"><img src="Icons\In-2C-34px-R.png" alt="LinkedIn logo connecting to Ben Crispin's page" /></a></span>
+					<span><a href="https://www.github.com/bwcrispin"><img src="Icons\GitHub-Mark-32px.png" alt="GitHub Logo linking to Ben Crispin's page" /></a></span>
+				</section>
+				<section class="container-2-sections">		
+					<h3 class="center-text">Skills:</h3>
+					<p>Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML5 • CSS3 • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git</p>
+					<!-- <ul id="skills-list">
+						<li>Java</li>
+						<li>Spring</li>
+						<li>Hibernate</li>
+						<li>JPA</li>
+						<li>JavaScript</li>
+						<li>MVC</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Flexbox</li>
+						<li>Grid</li>
+						<li>TDD</li>
+						<li>Agile (Scrum)</li>
+						<li>Object Oriented Programming</li>
+						<li>AJAX</li>
+						<li>JSON</li>
+						<li>Restful APIs</li>
+						<li>Responsive Design / Mobile</li>
+						<li>Structured Query Language (SQL)</li>
+						<li>Relational Databases</li>
+						<li>Source Control / Git</li>
+					</ul> -->
+				</p>
+				</section>
+				<!-- Donnie this pic is only here until I get my headshot! -->
+				<figure>
+					<img src="photos\tempshot.jpeg" alt="A temporary picture of Ben Crispin">
+				</figure>
+			</div>	
+			
+		</div>
+		<footer>
+			<p>&copy; 
+				<script type="text/javascript"> document.write(new Date().getFullYear());</script>, Benjamin Crispin
+			</p>
+		</footer>
+    <script src="index.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
