@@ -1,100 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<title>Benjamin's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Benjamin's Portfolio</title>
 </head>
 <body>
-		<header class="clear-fix"> 
-			<h1>Benjamin Crispin</h1>
-			<button class="nav__button">Navigation</button>
-			<nav>
-				<ul class="nav__menu hide">
-					<li><a href="#" class="styled-links">Home</a></li>
-					<li><a href="#about" class="styled-links">About</a></li>
-					<li><a href="projects.html" class="styled-links">Projects</a></li>
-					<li><a href="#contact" class="styled-links">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div class="container">
-			<div id="container-1">
-				<section class="conatiner-1-sections">
-					<h1>
-						About the Site
-					</h1>
-					<p>My goal is to let you know more about me and what projects I've been working on.  If you have any questions regarding what's here, please feel free to contact me through email or any of the social media connections.  Thank you for visiting!</p>
-				</section>
-				<section class="container-1-sections">
-					<h2 id="about">
-						About
-					</h2>
-					<button class="toggle-button">
-						<h3>Bio:</h3>
-					</button>
-					<div class="modal">
-						<div class="modal-content">
-							<span class="close-button">&times;</span>
-							<p>I am a slightly nerdy yet friendly guy who lives in Columbus, OH.  I enjoy video games, reading, hoping the Crew will once again hoist the MLS trophy, and imagining the Browns will one day be good.</p></br>
-							<p>I have always been interested in technology, and have worked many years in IT Support.  However, I have made the decision to attend <a href="https://wecancodeit.org/">We Can Code IT</a> in here in Columbus to focus my interest in coding and fulfill my desire to be a developer.</p></br>
-							<p>I am also interested in how software can help fill the needs of people in the community.  I've been able to attend Code for Columbus to work with others who want to use the smart data of Columbus to help make a difference.</p>
-						</div>
-					</div>
-				</section>
-				<section>
-				</section>
-			</div>		
-			<div id="container-2">
-				<section class="container-2-sections">
-					<h3 class="center-text">Contact:</h3>
-					<address>
-						<span>Email:<a href="mailto:benjamin.crispin@gmail.com">benjamin.crispin@gmail.com</a></span><br/>
-					</address>
-					<h3 class="center-text">Connect:</h3>
-					<span><a href="https://www.linkedin.com"><img src="Icons\In-2C-34px-R.png" alt="LinkedIn logo connecting to Ben Crispin's page" /></a></span>
-					<span><a href="https://www.github.com/bwcrispin"><img src="Icons\GitHub-Mark-32px.png" alt="GitHub Logo linking to Ben Crispin's page" /></a></span>
-				</section>
-				<section class="container-2-sections">		
-					<h3 class="center-text">Skills:</h3>
-					<p>Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML5 • CSS3 • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git</p>
-					<!-- <ul id="skills-list">
-						<li>Java</li>
-						<li>Spring</li>
-						<li>Hibernate</li>
-						<li>JPA</li>
-						<li>JavaScript</li>
-						<li>MVC</li>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Flexbox</li>
-						<li>Grid</li>
-						<li>TDD</li>
-						<li>Agile (Scrum)</li>
-						<li>Object Oriented Programming</li>
-						<li>AJAX</li>
-						<li>JSON</li>
-						<li>Restful APIs</li>
-						<li>Responsive Design / Mobile</li>
-						<li>Structured Query Language (SQL)</li>
-						<li>Relational Databases</li>
-						<li>Source Control / Git</li>
-					</ul> -->
-				</p>
-				</section>
-				<!-- Donnie this pic is only here until I get my headshot! -->
-				<figure>
-					<img src="photos\tempshot.jpeg" alt="A temporary picture of Ben Crispin">
-				</figure>
-			</div>	
-			
-		</div>
-		<footer>
-			<p>&copy; 
-				<script type="text/javascript"> document.write(new Date().getFullYear());</script>, Benjamin Crispin
-			</p>
-		</footer>
-	<script src="index.js"></script>
+    <div class="container">
+        <div class="header" id="home">
+            <h1>
+                Benjamin Crispin
+            </h1>
+        </div>
+        <div class="menu">
+            <ul class="nav__menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <section class="content__section">
+                <h2>
+                    About the Site
+                </h2>
+                <p>My goal is to let you know more about me and what projects I've been working on.  If you have any questions regarding what's here, please feel free to contact me through email or any of the social media connections.  Thank you for visiting!</p>
+            </section>
+            <section class="content__section">
+                <h2>
+                    About
+                </h2>
+                <p>I am a slightly nerdy yet friendly guy who lives in Columbus, OH.  I enjoy video games, reading, hoping the Crew will once again hoist the MLS trophy, and imagining the Browns will one day be good.</p></br>
+                <p>I have always been interested in technology, and have worked many years in IT Support.  However, I have made the decision to attend <a href="https://wecancodeit.org/">We Can Code IT</a> in here in Columbus to focus my interest in coding and fulfill my desire to be a developer.</p></br>
+                <p>I am also interested in how software can help fill the needs of people in the community.  I've been able to attend Code for Columbus to work with others who want to use the smart data of Columbus to help make a difference.</p>
+            </section>
+            <section class="content__section projects" id="#Projects">
+                <h2>
+                    Projects
+                </h2>
+                <section class="projects__project">
+                    <section class="project__content">
+                        <img src="./photos/virtual-pet.png" alt="The Virtual Pet Project" class="project__img">
+                        <h3>Virtual Pet</h3>
+                        <p>Our project was to create a virtual pet shelter in Java.  Tamagotchis are back!</p>
+                    </section>
+                </section>
+                <section class="projects__project">
+                    <section class="project__content1">
+                        <img src="./photos/park-review.png" alt="Park Review Pic">
+                        <h3>Park Review</h3>
+                        <p>Our group was tasked to create a review site, and we chose parks of Columbus.  We were also tasked with being able to add reviews and comments.</p>
+                    </section>
+                </section>
+                <section class="projects__project">
+                    <section class="project__content">
+                        <img src="./photos/blog-post.png" alt="Blog Site Pic">
+                        <h3>Blog site</h3>
+                        <p>We were to create a basic blog site that would allow you to add authors, blog posts, and tag the articles.</p>
+                    </section>
+                </section>
+                <section class="projects__project">
+                    <section class="project__content1">
+                        <img src="./photos/album-collection.png" alt="Album Collection">
+                        <h3>Album Collection Site</h3>
+                        <p>Our fictional hipster friend asked us to make a site to categorize his artists, albums, and songs.  We also liked fire.</p>
+                    </section>
+                </section>
+            </section>
+            <section class="content__section" id="Contact">
+                <h3>Contact:</h3>
+                <address>
+                    <span>Email:<a href="mailto:benjamin.crispin@gmail.com">benjamin.crispin@gmail.com</a></span><br/>
+                </address>
+                <span><a href="https://www.linkedin.com"><img src="Icons\In-2C-34px-R.png" alt="LinkedIn logo connecting to Ben Crispin's page" /></a></span>
+                <span><a href="https://www.github.com/bwcrispin"><img src="Icons\GitHub-Mark-32px.png" alt="GitHub Logo linking to Ben Crispin's page" /></a></span>
+            </section>
+        </div>
+        <div class="footer">&copy; Copyright 2019 Ben Crispin</div>
+    </div>
+    <script src=""></script>
 </body>
 </html>
